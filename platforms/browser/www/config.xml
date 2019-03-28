@@ -1,12 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="pg.md.navbar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>pg-md2214-20-navbar</name>
+<widget android-VersionCode="10" id="pg.md.pages" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>PG-MD2214 20-Navbar</name>
     <description>
-        A blank PhoneGap app.
+        Chapter 20 (Navbar) of MD2214 Course Structure
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="paulchin@hcu.edu.my" href="http://pauljavascriptnotes.blogspot.com">
+        Paul
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <icon src="icon144.png" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-targetSdkVersion" value="26" />
 </widget>
